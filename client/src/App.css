@@ -1,0 +1,229 @@
+/************ Custom Font ************/
+@font-face {
+	font-family: Centra;
+	src: url('./assests/font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assests/font/CentraNo2-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assests/font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: None;
+    text-decoration: none;
+    font-family: 'Centra', sans-serif !important;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    }
+    
+p, a, li, button, ul {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    text-decoration: none;
+    }
+    
+a:hover {
+    text-decoration: none;
+    }
+
+/*******Navbar ********/
+nav.navbar {
+    background-color: #594ab3;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
+nav.navbar a.navbar-brand {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    font: optional;
+}
+nav.navbar .navbar-nav .nav-link {
+  font-weight: 400;
+  color: #fff !important;
+  opacity: 0.75;
+}
+nav.navbar .navbar-nav a.nav-link:hover,
+nav.navbar .navbar-nav a.nav-link.active {
+    opacity: 1;
+}
+form .form-control{
+    border-radius: 15px;
+    background-color: #594ab3;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+form .form-control::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+
+.bdiv{
+    display: flex;
+    margin-left: 65px;
+    margin-right: 20px;
+    padding-bottom: 6px;
+}
+.bdiv Button{
+
+    margin: 6px 10px 0px 0px;
+    color: #fff;
+}
+/*menu*/
+.menu{
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  margin-top: 65px;
+  background: white;
+  height: 100%;
+  width: 20%;
+  color: black;
+  font-weight: 12px;
+  position: fixed;
+  top: 0;
+  border: 2px solid gray;
+  margin-left:0px;
+}
+.uppermenu{
+    display: flex;
+    background-color: #beb7e7;
+    align-items:center;
+    width:100%;
+    height: 56px;
+    border: 2px solid #594ab3;
+    border-radius:0;
+    margin-bottom: 7%;
+}
+.uppermenu h3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 400;
+  margin: auto;
+  font-size: 25px;
+  color: black;
+}
+.menu input{
+    border: 1px solid gray;
+    margin: 20px 20px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 17px;
+  }
+
+/*menucard*/
+.menuCard{
+    background-color: rgb(245, 245, 245);
+    padding: 10px 0px;
+}
+.menuCard img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0px 20px 0px 10px;
+    padding: 5px;
+    float: left;
+}
+.menuCard h6,.menuCard p{
+    opacity: 0.8;
+    padding-bottom: 0px;
+    margin-top:5px;
+    margin-bottom: 0px;
+
+}
+/*calls*/
+.callList{
+    margin-top: 100px;
+}
+
+/*Call Card*/
+
+
+  
+
+
+.callCard{
+    flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px;
+  margin-left: 20%;
+}
+.callCard img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0px 20px 0px 10px;
+    padding: 5px;
+    float: left;
+}
+.callCard h6,.callCard p{
+    opacity: 0.8;
+    padding-bottom: 0px;
+    margin-top:5px;
+    margin-bottom: 0px;
+
+}
+
+/*login*/
+.acc{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 100px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.accCard{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 15px;
+  padding: 50px 70px;
+  gap: 10px;
+}
+.accCard input[type="text"],
+.accCard input[type="email"],
+.accCard input[type="password"],
+.accCard button {
+  width: 200px;
+  margin-bottom: 25px;
+  height: 40px;
+  border-radius: 5px;
+  outline: 0;
+  -moz-outline-style: none;
+}
+
+.accCard input[type="text"],
+.accCard input[type="email"],
+.accCard input[type="password"] {
+  border: 1px solid #bbb;
+  padding: 0 0 0 10px;
+  font-size: 14px;
+}
